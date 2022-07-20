@@ -54,6 +54,7 @@ namespace TestProj
             StreamWriter sw = new StreamWriter("everwhat.txt");
             sw.WriteLine("Guru99 - ASP.Net");
             // FIXME: should close the stream intraprocedurally by calling sw.Close()
+            sw.Close();
         }
 
         /// <summary>
