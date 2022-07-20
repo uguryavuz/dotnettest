@@ -88,6 +88,7 @@ namespace TestProj
             finally 
             {
                 // FIXME: should close the stream by calling stream.Close().
+                stream.Close();
             }
         }
 
