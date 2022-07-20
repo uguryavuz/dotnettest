@@ -127,8 +127,6 @@ namespace TestProj
             Program p = new Program("whatever.txt");
             // FIXME: should close the global streams by calling p.Cleanup()
             p.CleanUp();
-            // Null dereference error report expected.
-            p.NullDeReferenceBad().GetHashCode();
             // No null dereference error report expected.
             p.NullDeReferenceOK().GetHashCode();
         }
